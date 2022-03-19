@@ -93,11 +93,11 @@ export default class MessageHandler {
 			)}`
 		);
 			if (!command)
-				return void M.reply( await request.buffer(`https://telegra.ph/file/1e39217e12c4bf9e4e788.jpg`),
+				return void M.reply( await request.buffer(`https://user-images.githubusercontent.com/88751177/145409683-cfa6f4fa-8b13-4ade-9ec6-8d4e1f14409a.jpg`),
         MessageType.image,
                     undefined,
                     undefined,
-                    `No such command, Baka! Have you never seen someone use the command *${this.client.config.prefix}help*`,
+                    `Not a valid command you idiot 😡, use *${this.client.config.prefix}help to view usable commands*`,
                     undefined
                 )
 		const user = await this.client.getUser(M.sender.jid);
